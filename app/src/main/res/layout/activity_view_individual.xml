@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:backgroundTint="#281345"
+    tools:context=".View_Individual"
+    android:background="#1C1C1B">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5mm"
+        android:text="View Invesment List"
+        android:textAlignment="center"
+        android:textColor="#9EC7E8"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/listviewVI"
+        android:layout_width="match_parent"
+        android:layout_height="433dp"
+        android:cacheColorHint="#000000"
+        android:textColor="#000000" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/searchVI"
+            android:layout_width="97dp"
+            android:layout_height="58dp"
+            android:layout_marginEnd="16dp"
+            android:backgroundTint="#2196F3"
+            android:text="View More"
+            app:layout_constraintBottom_toBottomOf="@+id/etUsernameVI"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/etUsernameVI"
+            app:layout_constraintTop_toTopOf="@+id/etUsernameVI" />
+
+        <EditText
+            android:id="@+id/etUsernameVI"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:inputType="textPersonName"
+            android:hint="Enter iD"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>

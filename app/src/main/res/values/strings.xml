@@ -1,0 +1,41 @@
+<resources>
+    <string name="add_job_tips">Add Job Tips</string>
+    <string name="add_new_jobs">Add New Job</string>
+    <string name="admin_pannel">Admin Pannel</string>
+    <string name="job_list">Job List</string>
+    <string name="job_tips_details">Job Tips Details</string>
+    <string name="job_tips">Job Tips</string>
+    <string name="find_a_job">Find a Job</string>
+    <string name="jobs">Jobs</string>
+    <string name="update_job_details">Update Job Details</string>
+    <string name="update_job_tips">Update Job Tips</string>
+    <string name="job_tips_list">Job Tips List</string>
+
+
+    <string name="app_name">Welth wave</string>
+    <string name="Learn_article_news">Learn_more_with_curated_article_news</string>
+    <string name="Create_Article">Create Article</string>
+    <string name="Create_quizzes">Create quizzes</string>
+    <string name="Financial_Education_Topics">More Financial Education Topics</string>
+    <string name="Choose_One_Category">Choose One Category</string>
+    <string name="Gamified_Learning">Gamified Learning</string>
+    <string name="score">Your total score is 5</string>
+    <string name="Update_Articles">Update Articles</string>
+    <string name="Update_Quizzes">Update Quizzes</string>
+
+
+
+    <string name="my_menu1">INPUT NEW INVESMENT</string>
+    <string name="my_menu2">EXISTING INVESMENT</string>
+    <string name="my_menu3">TOTAL INVESMENT</string>
+    <string name="page1">Enter New Invesment</string>
+    <string name="fin_det">Financial_Details</string>
+    <string name="page2">View Invesments</string>
+    <string name="page3">Total Invesment</string>
+    <string name="tot_in">Total Income</string>
+    <string name="sum">Summary</string>
+    <string name="page4">GOAL</string>
+
+
+
+</resources>

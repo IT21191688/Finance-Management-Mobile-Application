@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".new_invesment"
+    android:background="#F5F5DC">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="236dp"
+        android:layout_height="36dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Enter New Invesment"
+        android:textAlignment="center"
+        android:textColor="#27213C"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.028" />
+
+    <EditText
+        android:id="@+id/etInvesmentNameNE"
+        android:layout_width="351dp"
+        android:layout_height="38dp"
+        android:ems="10"
+        android:hint="Invesment Name"
+        android:inputType="textPersonName"
+        android:textColor="#504C4C"
+        android:textColorHint="#000000"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etTypeNE"
+        app:layout_constraintVertical_bias="0.033" />
+
+    <EditText
+        android:id="@+id/etTypeNE"
+        android:layout_width="350dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="64dp"
+        android:hint="Type"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etStartDateNE"
+        android:layout_width="351dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="Start Date"
+        android:inputType="date"
+        android:textColor="#504C4C"
+        android:textColorHint="#000000"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etInvesmentNameNE" />
+
+    <EditText
+        android:id="@+id/etEndDateNE"
+        android:layout_width="351dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="End Date"
+        android:inputType="date"
+        android:textColor="#000000"
+        android:textColorHighlight="#000000"
+        android:textColorHint="#000000"
+        android:textColorLink="#000000"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etStartDateNE"
+        app:layout_constraintVertical_bias="0.009" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="41dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="48dp"
+        app:layout_constraintBottom_toBottomOf="@+id/im2EI"
+        app:layout_constraintStart_toEndOf="@+id/im2EI"
+        app:layout_constraintTop_toTopOf="@+id/im2EI"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/_973472" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="41dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/_283342" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="41dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="48dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView4"
+        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        app:layout_constraintTop_toTopOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/_245086" />
+
+    <ImageView
+        android:id="@+id/im2EI"
+        android:layout_width="41dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="48dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/_046085" />
+
+    <EditText
+        android:id="@+id/etCurrencyNE"
+        android:layout_width="352dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="16dp"
+        android:hint="Currency"
+        android:textColor="#504C4C"
+        android:textColorHint="#000000"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etEndDateNE" />
+
+    <EditText
+        android:id="@+id/etinvesmentValueNE"
+        android:layout_width="351dp"
+        android:layout_height="38dp"
+        android:ems="10"
+        android:hint="Value of Invesment"
+        android:inputType="textPersonName"
+        android:textColor="#504C4C"
+        android:textColorHint="#000000"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etEndDateNE"
+        app:layout_constraintVertical_bias="0.257" />
+
+    <EditText
+        android:id="@+id/etincomeValueNE"
+        android:layout_width="351dp"
+        android:layout_height="38dp"
+        android:ems="10"
+        android:hint="Value of Income"
+        android:inputType="textPersonName"
+        android:textColor="#504C4C"
+        android:textColorHint="#000000"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etinvesmentValueNE"
+        app:layout_constraintVertical_bias="0.071" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/submitNE"
+        android:layout_width="83dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="480dp"
+        android:backgroundTint="#4CAF50"
+        android:text="Submit"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/viewNE"
+        android:layout_width="83dp"
+        android:layout_height="40dp"
+        android:backgroundTint="#0B53BD"
+        android:text="View"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/clearGoal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/clearGoal"
+        app:layout_constraintTop_toTopOf="@+id/clearGoal" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/clearGoal"
+        android:layout_width="83dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="28dp"
+        android:backgroundTint="#D64045"
+        android:text="Clear"
+        app:layout_constraintBottom_toBottomOf="@+id/submitNE"
+        app:layout_constraintStart_toEndOf="@+id/submitNE"
+        app:layout_constraintTop_toTopOf="@+id/submitNE"
+        app:layout_constraintVertical_bias="0.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>
